@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  position: fixed;
+  top: 0;
+  background-color: #cc001f;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  top: 0;
+}
+nav img {
+  width: 200px;
+}
+nav a {
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 15px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  transition: 0.8s ease;
+}
+nav a:hover {
+  background-color: #fd7a00;
+}
+main {
+  margin-top: 100px;
+}
+.container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner img {
+  width: 70%;
+}
+.form {
+  width: 80%;
+  padding: 50px;
+  box-shadow: 0 0 32px rgb(0 0 0 / 8%), 0 16px 16px -16px rgb(0 0 0 / 10%);
+  border-radius: 3%;
+}
+.form h2,
+.form h3 {
+  font-size: 30pt;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+.form h3 {
+  font-size: 20pt;
+  margin-bottom: 20px;
+}
+form input {
+  padding: 5px 10px;
+}
+.name {
+  display: flex;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.name div {
+  display: flex;
+  flex-direction: column;
+}
+.name div:first-child {
+  margin-right: 20px;
+}
+.gender {
+  margin-bottom: 20px;
+}
+.gender label {
+  margin: 0px 10px 0 1px;
+}
+.gender label:first-child {
+  font-weight: bold;
+}
+.nation {
+  display: flex;
+  flex-direction: column;
+  max-width: 180px;
+  margin-bottom: 20px;
+}
+.nation label:first-child {
+  font-weight: bold;
+}
+.nation select {
+  padding: 5px 10px;
+}
+.lang {
+  margin-bottom: 20px;
+}
+.lang label:first-child {
+  font-weight: bold;
+}
+.lang div {
+  display: grid;
+  max-width: 200px;
+  grid-template-columns: 0.1fr 1fr;
+  align-items: center;
+}
+.bio {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.bio textarea {
+  max-width: 400px;
+  height: 100px;
+  padding: 5px 10px;
+}
+.submit button {
+  background: rgb(8, 89, 221);
+  padding: 5px 10px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.submit button:hover {
+  background-color: rgb(55, 115, 211);
+}

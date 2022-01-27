@@ -1,0 +1,115 @@
+<!-- Delvino Ardi / 1313621025 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navigasi centered">
+        <img src="logo.png" alt="" width="300" />
+        <button class="btn">Login</button>
+      </nav>
+    </header>
+
+    <main class="row">
+      <div class="split-left">
+        <div class="centered">
+          <img src="image.jpg" alt="beauty night" width="400" />
+        </div>
+      </div>
+      <div class="split-right">
+        <div class="title">
+          <h1>Buat Account Baru!</h1>
+          <h2>Sign Up Form</h2>
+        </div>
+        <br />
+        <form action="#" method="post" class="col">
+          <div class="row name">
+            <div class="col">
+              <label for="FirstName" class="bold">First Name:</label>
+              <input type="text" id="FirstName" name="input" />
+            </div>
+            <div class="col">
+              <label for="LastName" class="bold">Last Name:</label>
+              <input type="text" id="LastName" name="input" />
+            </div>
+          </div>
+
+          <div class="gender">
+            <label for="Gender" class="bold">Gender: </label>
+            <div class="row centered opsi-radio">
+              <input type="radio" id="gender1" name="gender" value="Male" />
+              <label for="gender1">Male</label>
+              <input type="radio" id="gender2" name="gender" value="Female" />
+              <label for="gender2">Female</label>
+              <input type="radio" id="gender3" name="gender" value="Other" />
+              <label for="gender3">Other</label>
+            </div>
+          </div>
+
+          <div class="nationality">
+            <label for="Nationality" class="bold">Nationality: </label>
+            <select name="Nationality" id="Nationality" class="col">
+              <option value="Indonesian">Indonesian</option>
+              <option value="Malaysia">Malaysia</option>
+              <option value="Singapore">Singapore</option>
+              <option value="Australia">Australia</option>
+              <option value="North Korea">North Korea</option>
+              <option value="Chinese">Chinese</option>
+              <option value="Japanese">Japanese</option>
+              <option value="South Korea">South Korea</option>
+            </select>
+          </div>
+
+          <div class="language">
+            <label for="Language" class="bold">Language Spoken: </label>
+            <div class="col">
+              <div class="row centered opsi-checkbox">
+                <input
+                  type="checkbox"
+                  id="language1"
+                  name="language"
+                  value="Bahasa Indonesia"
+                />
+                <label for="language1">Bahasa Indonesia</label>
+              </div>
+              <div class="row centered opsi-checkbox">
+                <input
+                  type="checkbox"
+                  id="language2"
+                  name="language"
+                  value="English"
+                />
+                <label for="language2">English</label>
+              </div>
+              <div class="row centered opsi-checkbox">
+                <input
+                  type="checkbox"
+                  id="language3"
+                  name="language"
+                  value="Other"
+                />
+                <label for="language3">Other</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="bio">
+            <label for="Bio" class="bold">Bio: </label><br />
+            <textarea name="Bio" id="Bio" cols="30" rows="10"></textarea>
+          </div>
+
+          <div class="close">
+            <button type="submit" class="btn sign-btn">Sign Up</button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

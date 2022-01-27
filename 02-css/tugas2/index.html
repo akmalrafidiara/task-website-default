@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gedebook</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="img/logo.png" alt="" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <img src="img/background.png" alt="" />
+        <h2>Post's</h2>
+        <div class="item-content">
+          <h3><a href="#">Post 1</a></h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et obcaecati dolorem alias. Quae exercitationem
+            beatae similique qui magni, sit inventore!
+          </p>
+        </div>
+        <div class="item-content">
+          <h3><a href="#">Post 2</a></h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et iure repellat quia voluptate ea a asperiores
+            alias consequuntur quaerat sint odio, debitis atque repellendus aperiam ipsa explicabo, perspiciatis
+            exercitationem! Velit nemo odio blanditiis est, voluptas dolorem amet harum quod! Ipsa numquam mollitia ab
+            quisquam eius molestiae assumenda sunt id! Cumque.
+          </p>
+        </div>
+        <div class="item-content">
+          <h3><a href="#">Post 3</a></h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, minus!</p>
+        </div>
+        <div class="item-content">
+          <h3><a href="#">Post 4</a></h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consectetur earum similique autem quidem
+            tempore iste distinctio nisi reiciendis sed, eligendi placeat sint, quam sequi voluptatibus omnis. Atque
+            ullam voluptas iure suscipit impedit sint ut ipsam dolore, eius quibusdam adipisci perferendis ducimus,
+            minima obcaecati saepe facilis possimus eum nobis repellat repudiandae reiciendis nemo? Corrupti veniam
+            assumenda quis, voluptas pariatur aliquam voluptatem impedit laborum ipsum error maxime nostrum.
+          </p>
+        </div>
+        <div class="item-content">
+          <h3><a href="#">Post 5</a></h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate iure perspiciatis reiciendis cum
+            accusamus expedita omnis et magnam, molestiae quam perferendis fugit. Beatae reprehenderit sunt eos
+            dignissimos distinctio quis voluptatibus unde consectetur?
+          </p>
+        </div>
+        <div class="item-content">
+          <h3><a href="#">Post 6</a></h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime debitis quasi ipsum maiores nobis sunt
+            veritatis eaque? At eius sint quo odit placeat quos nemo magni possimus autem labore inventore ex, tempora
+            doloremque tempore!
+          </p>
+        </div>
+        <div class="item-content">
+          <h3><a href="#">Post 7</a></h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi vero adipisci provident repudiandae libero
+            laudantium exercitationem similique, earum temporibus placeat ducimus, quae tenetur quo aliquid ex quisquam
+            totam cumque esse corporis amet eos facere? Optio voluptate, tempora sit ea numquam cumque officia fugiat
+            molestias doloremque excepturi magnam expedita vitae saepe laboriosam, provident id soluta aperiam sunt
+            nobis molestiae dolorum illum. Laborum voluptatem perspiciatis provident. A, sed.
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <h3>Akmal Rafi Diara Putra | Default Website SIG 2021</h3>
+    </footer>
+    <script>
+      const bgImg = document.querySelector('.container img');
+      window.addEventListener('scroll', function () {
+        var value = window.scrollY;
+        bgImg.style.top = '-' + value * 0.1 + 'px';
+      });
+    </script>
+  </body>
+</html>

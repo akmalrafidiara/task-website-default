@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Gedebook</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="img/logo.png" alt="" />
+        <a href="#">Login</a>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="banner">
+          <img src="img/image.jpg" alt="" />
+        </div>
+        <div class="form">
+          <h2>Buat Akun Baru!</h2>
+          <h3>Sign Up Form</h3>
+          <form action="#">
+            <div class="name">
+              <div>
+                <label for="fname">First Name:</label>
+                <input
+                  type="text"
+                  name="fname"
+                  id="fname"
+                  placeholder="First name.."
+                  required
+                />
+              </div>
+              <div>
+                <label for="lname">Last Name:</label>
+                <input
+                  type="text"
+                  name="lname"
+                  id="lname"
+                  placeholder="Last name.."
+                  required
+                />
+              </div>
+            </div>
+            <div class="gender">
+              <label for="gender">Gender:</label>
+              <div>
+                <input type="radio" name="gender" id="gM" required />
+                <label for="gM">Male</label>
+                <input type="radio" name="gender" id="gF" required />
+                <label for="gF">Female</label>
+                <input type="radio" name="gender" id="gO" required />
+                <label for="gO">Other</label>
+              </div>
+            </div>
+            <div class="nation">
+              <label for="nation">Nationality:</label>
+              <select name="nationality" id="nation" required>
+                <option value="indo">Indonesian</option>
+                <option value="nindo">Non-Indonesian</option>
+                <option value="indo">Mars People</option>
+              </select>
+            </div>
+            <div class="lang">
+              <label for="lang">Language Spoken:</label>
+              <div>
+                <input type="checkbox" name="indoLang" id="indoLang" />
+                <label for="indoLang"> Bahasa Indonesia</label>
+                <input type="checkbox" name="engLang" id="engLang" />
+                <label for="engLang"> English</label>
+                <input type="checkbox" name="othLang" id="othLang" />
+                <label for="othLang"> Other</label>
+              </div>
+            </div>
+            <div class="bio">
+              <label for="bio">Bio:</label>
+              <textarea
+                name="bio"
+                id="bio"
+                placeholder="type here.."
+                required
+              ></textarea>
+            </div>
+            <div class="submit">
+              <button>Sign Up</button>
+              <p>already have account? <a href="#">login</a></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
